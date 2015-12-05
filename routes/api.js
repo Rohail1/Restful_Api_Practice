@@ -44,6 +44,7 @@ router.put('/customer/:id',function(req,res){
 		ids = req.params.id;
 	customer.findOne({name:ids},function(err,data){
 			if (err) {return console.log(err)};
+			//git test
 			if (data === null) {return res.end("not found")};
 			data.age = "23";
 			data.save(function(err){
