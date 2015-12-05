@@ -1,0 +1,17 @@
+{
+  "name": "restapipractice",
+  "version": "1.0.0",
+  "description": "This is my practice of restfull Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rohail najan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.9",
+    "node-restful": "^0.2.4"
+  }
+}
